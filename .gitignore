@@ -1,0 +1,104 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Keep this ignored unless project-specific launch configurations or tasks
+# should be shared with contributors.
+.vscode/
+
+# Dart / Flutter / Pub
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Keep the example app lockfile; this repository root is a reusable package.
+/pubspec.lock
+
+# Test and coverage outputs
+coverage/
+*.lcov
+
+# Symbolication and obfuscation outputs
+app.*.symbols
+app.*.map.json
+
+# Android build artifacts (including the example app)
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Widget Preview
+.widget_preview/
+
+# Android local configuration and signing credentials
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# iOS / macOS generated and dependency files
+**/Pods/
+**/.symlinks/
+**/Flutter/Flutter.framework
+**/Flutter/Flutter.podspec
+**/Flutter/Generated.xcconfig
+**/Flutter/ephemeral/
+**/Runner/GeneratedPluginRegistrant.*
+
+# Windows / Linux generated Flutter files
+**/flutter/ephemeral/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite runtime files (keep database schemas and generated Drift code)
+*.sqlite-shm
+*.sqlite-wal
+
+
+# Example application
+/example/.dart_tool/
+/example/build/
+/example/.flutter-plugins
+/example/.flutter-plugins-dependencies
+/example/.packages
+
+# Example platform generated files
+/example/android/.gradle/
+/example/android/local.properties
+/example/ios/Flutter/ephemeral/
+/example/ios/Pods/
+/example/web/.dart_tool/
+
+# Example local configuration
+/example/.env
+/example/.env.*
+!/example/.env.example
